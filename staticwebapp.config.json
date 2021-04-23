@@ -3,6 +3,7 @@
 {"route":"/pictures","rewrite":"/pictures.html","allowedRoles":["authenticated"]},
 {"route":"/practical","rewrite":"/practical.html","allowedRoles":["authenticated"]},
 {"route":"/tickets","rewrite":"/tickets.html","allowedRoles":["authenticated"]},
-{"route":"/upload","rewrite":"/upload.html","allowedRoles":["authenticated"]}
+{"route":"/upload","rewrite":"/upload.html","allowedRoles":["authenticated"]},
+{"route":"/login","rewrite":"/.auth/login/twitter","allowedRoles":["authenticated"]}
 ]
 }
